@@ -29,7 +29,7 @@ public class LoginTest {
 
 	@BeforeClass
 	public void setUp() {
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
